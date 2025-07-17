@@ -1,0 +1,930 @@
+. 2021-06-15 12:01:35.747 --------------------------------------------------------------------------
+. 2021-06-15 12:01:35.747 WinSCP Versione 5.17.7 (Build 10640) (OS 10.0.14393 - Windows Server 2016 Standard)
+. 2021-06-15 12:01:35.747 Configuration: nul
+. 2021-06-15 12:01:35.747 Log level: Normal
+. 2021-06-15 12:01:35.747 Local account: FELSINEO\administrator
+. 2021-06-15 12:01:35.747 Working directory: C:\
+. 2021-06-15 12:01:35.747 Process ID: 8644
+. 2021-06-15 12:01:35.747 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.17.7 /consoleinstance=_32_100 "/log=C:\Batch\Blockchain\WinSCPBlockchain.log" "/ini=nul" "/script=C:\Batch\Blockchain\scriptblockchain.txt" 
+. 2021-06-15 12:01:35.747 Time zone: Current: GMT+2, Standard: GMT+1 (ora solare Europa occidentale), DST: GMT+2 (ora legale Europa occidentale), DST Start: 28/03/2021, DST End: 31/10/2021
+. 2021-06-15 12:01:35.747 Login time: martedì 15 giugno 2021 12:01:35
+. 2021-06-15 12:01:35.747 --------------------------------------------------------------------------
+. 2021-06-15 12:01:35.747 Script: Retrospectively logging previous script records:
+> 2021-06-15 12:01:35.747 Script: open sftp://ced%40felsineo.com:***@18.195.101.4/ -hostkey="ssh-ed25519 255 5/y0NY9tYRIIQFfyQufy/5o1R5evMtuyO/OhA/1MPL4="
+. 2021-06-15 12:01:35.747 --------------------------------------------------------------------------
+. 2021-06-15 12:01:35.747 Session name: ced@felsineo.com@18.195.101.4 (Ad-Hoc site)
+. 2021-06-15 12:01:35.747 Host name: 18.195.101.4 (Port: 22)
+. 2021-06-15 12:01:35.747 User name: ced@felsineo.com (Password: Yes, Key file: No, Passphrase: No)
+. 2021-06-15 12:01:35.747 Tunnel: No
+. 2021-06-15 12:01:35.747 Transfer Protocol: SFTP
+. 2021-06-15 12:01:35.747 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2021-06-15 12:01:35.747 Disable Nagle: No
+. 2021-06-15 12:01:35.747 Proxy: None
+. 2021-06-15 12:01:35.747 Send buffer: 262144
+. 2021-06-15 12:01:35.747 SSH protocol version: 2; Compression: No
+. 2021-06-15 12:01:35.747 Bypass authentication: No
+. 2021-06-15 12:01:35.747 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2021-06-15 12:01:35.747 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2021-06-15 12:01:35.747 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2021-06-15 12:01:35.747 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2021-06-15 12:01:35.747 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2021-06-15 12:01:35.747 Simple channel: Yes
+. 2021-06-15 12:01:35.747 Return code variable: Autodetect; Lookup user groups: Auto
+. 2021-06-15 12:01:35.747 Shell: default
+. 2021-06-15 12:01:35.747 EOL: LF, UTF: Auto
+. 2021-06-15 12:01:35.747 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2021-06-15 12:01:35.747 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2021-06-15 12:01:35.747 SFTP Bugs: Auto,Auto
+. 2021-06-15 12:01:35.747 SFTP Server: default
+. 2021-06-15 12:01:35.747 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2021-06-15 12:01:35.747 Cache directory changes: Yes, Permanent: Yes
+. 2021-06-15 12:01:35.747 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2021-06-15 12:01:35.747 DST mode: Unix
+. 2021-06-15 12:01:35.747 --------------------------------------------------------------------------
+. 2021-06-15 12:01:35.747 Looking up host "18.195.101.4" for SSH connection
+. 2021-06-15 12:01:35.747 Connecting to 18.195.101.4 port 22
+. 2021-06-15 12:01:35.763 We claim version: SSH-2.0-WinSCP_release_5.17.7
+. 2021-06-15 12:01:35.794 Remote version: SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2
+. 2021-06-15 12:01:35.794 Using SSH protocol version 2
+. 2021-06-15 12:01:35.794 Have a known host key of type ssh-ed25519
+. 2021-06-15 12:01:35.825 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2021-06-15 12:01:35.903 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2021-06-15 12:01:35.903 Host key fingerprint is:
+. 2021-06-15 12:01:35.903 ssh-ed25519 255 5b:7b:7e:10:b6:77:83:ba:4f:eb:fb:9c:34:b9:2d:08 5/y0NY9tYRIIQFfyQufy/5o1R5evMtuyO/OhA/1MPL4=
+. 2021-06-15 12:01:35.903 Host key matches configured key fingerprint
+. 2021-06-15 12:01:35.919 Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+. 2021-06-15 12:01:35.919 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2021-06-15 12:01:35.919 Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+. 2021-06-15 12:01:35.919 Initialised HMAC-SHA-256 inbound MAC algorithm
+! 2021-06-15 12:01:35.935 Using username "ced@felsineo.com".
+. 2021-06-15 12:01:35.966 Server offered these authentication methods: publickey,password
+. 2021-06-15 12:01:35.966 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2021-06-15 12:01:35.966 Using stored password.
+. 2021-06-15 12:01:35.966 Sent password
+. 2021-06-15 12:01:35.997 Access granted
+. 2021-06-15 12:01:35.997 Opening main session channel
+. 2021-06-15 12:01:36.107 Opened main channel
+. 2021-06-15 12:01:36.122 Started a shell/command
+. 2021-06-15 12:01:36.122 --------------------------------------------------------------------------
+. 2021-06-15 12:01:36.122 Using SFTP protocol.
+. 2021-06-15 12:01:36.122 Doing startup conversation with host.
+> 2021-06-15 12:01:36.122 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2021-06-15 12:01:36.153 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2021-06-15 12:01:36.153 SFTP version 3 negotiated.
+. 2021-06-15 12:01:36.153 Unknown server extension posix-rename@openssh.com="1"
+. 2021-06-15 12:01:36.153 Supports statvfs@openssh.com extension version "2"
+. 2021-06-15 12:01:36.153 Unknown server extension fstatvfs@openssh.com="2"
+. 2021-06-15 12:01:36.153 Supports hardlink@openssh.com extension version "1"
+. 2021-06-15 12:01:36.153 Unknown server extension fsync@openssh.com="1"
+. 2021-06-15 12:01:36.153 We believe the server has signed timestamps bug
+. 2021-06-15 12:01:36.153 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2021-06-15 12:01:36.153 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2021-06-15 12:01:36.153 Getting current directory name.
+. 2021-06-15 12:01:36.153 Getting real path for '.'
+> 2021-06-15 12:01:36.153 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2021-06-15 12:01:36.169 Type: SSH_FXP_NAME, Size: 65, Number: 16
+. 2021-06-15 12:01:36.169 Real path is '/home/ced@felsineo.com'
+. 2021-06-15 12:01:36.169 Startup conversation with host finished.
+< 2021-06-15 12:01:36.169 Script: Sessione attiva: [1] ced@felsineo.com@18.195.101.4
+> 2021-06-15 12:01:36.169 Script: lcd C:\batch\Blockchain
+< 2021-06-15 12:01:36.169 Script: C:\batch\Blockchain
+> 2021-06-15 12:01:36.169 Script: cd /DATA
+. 2021-06-15 12:01:36.169 Changing directory to "/DATA".
+. 2021-06-15 12:01:36.169 Getting real path for '/DATA'
+> 2021-06-15 12:01:36.169 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2021-06-15 12:01:36.200 Type: SSH_FXP_NAME, Size: 31, Number: 272
+. 2021-06-15 12:01:36.200 Real path is '/DATA'
+. 2021-06-15 12:01:36.200 Trying to open directory "/DATA".
+> 2021-06-15 12:01:36.200 Type: SSH_FXP_LSTAT, Size: 14, Number: 519
+< 2021-06-15 12:01:36.216 Type: SSH_FXP_STATUS, Size: 29, Number: 519
+< 2021-06-15 12:01:36.216 Status code: 2, Message: 519, Server: No such file, Language:  
+* 2021-06-15 12:01:36.216 (ECommand) Errore cambiamento cartella su '/DATA'.
+* 2021-06-15 12:01:36.216 File o cartella non trovata.
+* 2021-06-15 12:01:36.216 Codice errore: 2
+* 2021-06-15 12:01:36.216 Messaggio errore dal server: No such file
+< 2021-06-15 12:01:36.216 Script: Errore cambiamento cartella su '/DATA'.
+< 2021-06-15 12:01:36.216 File o cartella non trovata.
+< 2021-06-15 12:01:36.216 Codice errore: 2
+< 2021-06-15 12:01:36.216 Messaggio errore dal server: No such file
+< 2021-06-15 12:01:36.216 Script: /home/ced@felsineo.com
+. 2021-06-15 12:01:36.216 Script: Failed
+. 2021-06-15 12:01:36.216 Script: Exit code: 1
+. 2021-06-15 12:01:36.216 Closing connection.
+. 2021-06-15 12:01:36.216 Sending special code: 1
+. 2021-06-15 12:01:36.247 Session sent command exit status 0
+. 2021-06-15 12:01:36.247 Main session channel closed
+. 2021-06-15 12:01:36.247 All channels closed
+. 2021-06-15 12:01:58.194 --------------------------------------------------------------------------
+. 2021-06-15 12:01:58.194 WinSCP Versione 5.17.7 (Build 10640) (OS 10.0.14393 - Windows Server 2016 Standard)
+. 2021-06-15 12:01:58.194 Configuration: nul
+. 2021-06-15 12:01:58.194 Log level: Normal
+. 2021-06-15 12:01:58.194 Local account: FELSINEO\administrator
+. 2021-06-15 12:01:58.194 Working directory: C:\
+. 2021-06-15 12:01:58.194 Process ID: 8744
+. 2021-06-15 12:01:58.194 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.17.7 /consoleinstance=_9852_433 "/log=C:\Batch\Blockchain\WinSCPBlockchain.log" "/ini=nul" "/script=C:\Batch\Blockchain\scriptblockchain.txt" 
+. 2021-06-15 12:01:58.194 Time zone: Current: GMT+2, Standard: GMT+1 (ora solare Europa occidentale), DST: GMT+2 (ora legale Europa occidentale), DST Start: 28/03/2021, DST End: 31/10/2021
+. 2021-06-15 12:01:58.194 Login time: martedì 15 giugno 2021 12:01:58
+. 2021-06-15 12:01:58.194 --------------------------------------------------------------------------
+. 2021-06-15 12:01:58.194 Script: Retrospectively logging previous script records:
+> 2021-06-15 12:01:58.194 Script: open sftp://ced%40felsineo.com:***@18.195.101.4/ -hostkey="ssh-ed25519 255 5/y0NY9tYRIIQFfyQufy/5o1R5evMtuyO/OhA/1MPL4="
+. 2021-06-15 12:01:58.194 --------------------------------------------------------------------------
+. 2021-06-15 12:01:58.194 Session name: ced@felsineo.com@18.195.101.4 (Ad-Hoc site)
+. 2021-06-15 12:01:58.194 Host name: 18.195.101.4 (Port: 22)
+. 2021-06-15 12:01:58.194 User name: ced@felsineo.com (Password: Yes, Key file: No, Passphrase: No)
+. 2021-06-15 12:01:58.194 Tunnel: No
+. 2021-06-15 12:01:58.194 Transfer Protocol: SFTP
+. 2021-06-15 12:01:58.194 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2021-06-15 12:01:58.194 Disable Nagle: No
+. 2021-06-15 12:01:58.194 Proxy: None
+. 2021-06-15 12:01:58.194 Send buffer: 262144
+. 2021-06-15 12:01:58.194 SSH protocol version: 2; Compression: No
+. 2021-06-15 12:01:58.194 Bypass authentication: No
+. 2021-06-15 12:01:58.194 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2021-06-15 12:01:58.194 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2021-06-15 12:01:58.194 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2021-06-15 12:01:58.194 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2021-06-15 12:01:58.194 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2021-06-15 12:01:58.194 Simple channel: Yes
+. 2021-06-15 12:01:58.194 Return code variable: Autodetect; Lookup user groups: Auto
+. 2021-06-15 12:01:58.194 Shell: default
+. 2021-06-15 12:01:58.194 EOL: LF, UTF: Auto
+. 2021-06-15 12:01:58.194 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2021-06-15 12:01:58.194 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2021-06-15 12:01:58.194 SFTP Bugs: Auto,Auto
+. 2021-06-15 12:01:58.194 SFTP Server: default
+. 2021-06-15 12:01:58.194 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2021-06-15 12:01:58.194 Cache directory changes: Yes, Permanent: Yes
+. 2021-06-15 12:01:58.194 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2021-06-15 12:01:58.194 DST mode: Unix
+. 2021-06-15 12:01:58.194 --------------------------------------------------------------------------
+. 2021-06-15 12:01:58.194 Looking up host "18.195.101.4" for SSH connection
+. 2021-06-15 12:01:58.194 Connecting to 18.195.101.4 port 22
+. 2021-06-15 12:01:58.225 We claim version: SSH-2.0-WinSCP_release_5.17.7
+. 2021-06-15 12:01:58.256 Remote version: SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2
+. 2021-06-15 12:01:58.256 Using SSH protocol version 2
+. 2021-06-15 12:01:58.256 Have a known host key of type ssh-ed25519
+. 2021-06-15 12:01:58.288 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2021-06-15 12:01:58.397 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2021-06-15 12:01:58.397 Host key fingerprint is:
+. 2021-06-15 12:01:58.397 ssh-ed25519 255 5b:7b:7e:10:b6:77:83:ba:4f:eb:fb:9c:34:b9:2d:08 5/y0NY9tYRIIQFfyQufy/5o1R5evMtuyO/OhA/1MPL4=
+. 2021-06-15 12:01:58.397 Host key matches configured key fingerprint
+. 2021-06-15 12:01:58.397 Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+. 2021-06-15 12:01:58.397 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2021-06-15 12:01:58.397 Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+. 2021-06-15 12:01:58.397 Initialised HMAC-SHA-256 inbound MAC algorithm
+! 2021-06-15 12:01:58.413 Using username "ced@felsineo.com".
+. 2021-06-15 12:01:58.460 Server offered these authentication methods: publickey,password
+. 2021-06-15 12:01:58.460 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2021-06-15 12:01:58.460 Using stored password.
+. 2021-06-15 12:01:58.460 Sent password
+. 2021-06-15 12:01:58.506 Access granted
+. 2021-06-15 12:01:58.506 Opening main session channel
+. 2021-06-15 12:01:58.616 Opened main channel
+. 2021-06-15 12:01:58.647 Started a shell/command
+. 2021-06-15 12:01:58.647 --------------------------------------------------------------------------
+. 2021-06-15 12:01:58.647 Using SFTP protocol.
+. 2021-06-15 12:01:58.647 Doing startup conversation with host.
+> 2021-06-15 12:01:58.647 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2021-06-15 12:01:58.678 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2021-06-15 12:01:58.678 SFTP version 3 negotiated.
+. 2021-06-15 12:01:58.678 Unknown server extension posix-rename@openssh.com="1"
+. 2021-06-15 12:01:58.678 Supports statvfs@openssh.com extension version "2"
+. 2021-06-15 12:01:58.678 Unknown server extension fstatvfs@openssh.com="2"
+. 2021-06-15 12:01:58.678 Supports hardlink@openssh.com extension version "1"
+. 2021-06-15 12:01:58.678 Unknown server extension fsync@openssh.com="1"
+. 2021-06-15 12:01:58.678 We believe the server has signed timestamps bug
+. 2021-06-15 12:01:58.678 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2021-06-15 12:01:58.678 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2021-06-15 12:01:58.678 Getting current directory name.
+. 2021-06-15 12:01:58.678 Getting real path for '.'
+> 2021-06-15 12:01:58.678 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2021-06-15 12:01:58.710 Type: SSH_FXP_NAME, Size: 65, Number: 16
+. 2021-06-15 12:01:58.710 Real path is '/home/ced@felsineo.com'
+. 2021-06-15 12:01:58.710 Startup conversation with host finished.
+< 2021-06-15 12:01:58.710 Script: Sessione attiva: [1] ced@felsineo.com@18.195.101.4
+> 2021-06-15 12:01:58.710 Script: lcd C:\batch\Blockchain
+< 2021-06-15 12:01:58.710 Script: C:\batch\Blockchain
+> 2021-06-15 12:01:58.710 Script: cd /DATA
+. 2021-06-15 12:01:58.710 Changing directory to "/DATA".
+. 2021-06-15 12:01:58.710 Getting real path for '/DATA'
+> 2021-06-15 12:01:58.710 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2021-06-15 12:01:58.741 Type: SSH_FXP_NAME, Size: 31, Number: 272
+. 2021-06-15 12:01:58.741 Real path is '/DATA'
+. 2021-06-15 12:01:58.741 Trying to open directory "/DATA".
+> 2021-06-15 12:01:58.741 Type: SSH_FXP_LSTAT, Size: 14, Number: 519
+< 2021-06-15 12:01:58.772 Type: SSH_FXP_STATUS, Size: 29, Number: 519
+< 2021-06-15 12:01:58.772 Status code: 2, Message: 519, Server: No such file, Language:  
+* 2021-06-15 12:01:58.772 (ECommand) Errore cambiamento cartella su '/DATA'.
+* 2021-06-15 12:01:58.772 File o cartella non trovata.
+* 2021-06-15 12:01:58.772 Codice errore: 2
+* 2021-06-15 12:01:58.772 Messaggio errore dal server: No such file
+< 2021-06-15 12:01:58.772 Script: Errore cambiamento cartella su '/DATA'.
+< 2021-06-15 12:01:58.772 File o cartella non trovata.
+< 2021-06-15 12:01:58.772 Codice errore: 2
+< 2021-06-15 12:01:58.772 Messaggio errore dal server: No such file
+< 2021-06-15 12:01:58.772 Script: /home/ced@felsineo.com
+. 2021-06-15 12:01:58.772 Script: Failed
+. 2021-06-15 12:01:58.772 Script: Exit code: 1
+. 2021-06-15 12:01:58.772 Closing connection.
+. 2021-06-15 12:01:58.772 Sending special code: 1
+. 2021-06-15 12:01:58.803 Session sent command exit status 0
+. 2021-06-15 12:01:58.803 Main session channel closed
+. 2021-06-15 12:01:58.803 All channels closed
+. 2021-06-15 12:06:30.138 --------------------------------------------------------------------------
+. 2021-06-15 12:06:30.138 WinSCP Versione 5.17.7 (Build 10640) (OS 10.0.14393 - Windows Server 2016 Standard)
+. 2021-06-15 12:06:30.138 Configuration: nul
+. 2021-06-15 12:06:30.138 Log level: Normal
+. 2021-06-15 12:06:30.138 Local account: FELSINEO\administrator
+. 2021-06-15 12:06:30.138 Working directory: C:\
+. 2021-06-15 12:06:30.138 Process ID: 4736
+. 2021-06-15 12:06:30.138 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.17.7 /consoleinstance=_6840_758 "/log=C:\Batch\Blockchain\WinSCPBlockchain.log" "/ini=nul" "/script=C:\Batch\Blockchain\scriptblockchain.txt" 
+. 2021-06-15 12:06:30.138 Time zone: Current: GMT+2, Standard: GMT+1 (ora solare Europa occidentale), DST: GMT+2 (ora legale Europa occidentale), DST Start: 28/03/2021, DST End: 31/10/2021
+. 2021-06-15 12:06:30.138 Login time: martedì 15 giugno 2021 12:06:30
+. 2021-06-15 12:06:30.138 --------------------------------------------------------------------------
+. 2021-06-15 12:06:30.138 Script: Retrospectively logging previous script records:
+> 2021-06-15 12:06:30.138 Script: open sftp://ced%40felsineo.com:***@18.195.101.4/ -hostkey="ssh-ed25519 255 5/y0NY9tYRIIQFfyQufy/5o1R5evMtuyO/OhA/1MPL4="
+. 2021-06-15 12:06:30.138 --------------------------------------------------------------------------
+. 2021-06-15 12:06:30.138 Session name: ced@felsineo.com@18.195.101.4 (Ad-Hoc site)
+. 2021-06-15 12:06:30.138 Host name: 18.195.101.4 (Port: 22)
+. 2021-06-15 12:06:30.138 User name: ced@felsineo.com (Password: Yes, Key file: No, Passphrase: No)
+. 2021-06-15 12:06:30.138 Tunnel: No
+. 2021-06-15 12:06:30.138 Transfer Protocol: SFTP
+. 2021-06-15 12:06:30.138 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2021-06-15 12:06:30.138 Disable Nagle: No
+. 2021-06-15 12:06:30.138 Proxy: None
+. 2021-06-15 12:06:30.138 Send buffer: 262144
+. 2021-06-15 12:06:30.138 SSH protocol version: 2; Compression: No
+. 2021-06-15 12:06:30.138 Bypass authentication: No
+. 2021-06-15 12:06:30.138 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2021-06-15 12:06:30.138 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2021-06-15 12:06:30.138 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2021-06-15 12:06:30.138 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2021-06-15 12:06:30.138 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2021-06-15 12:06:30.138 Simple channel: Yes
+. 2021-06-15 12:06:30.138 Return code variable: Autodetect; Lookup user groups: Auto
+. 2021-06-15 12:06:30.138 Shell: default
+. 2021-06-15 12:06:30.138 EOL: LF, UTF: Auto
+. 2021-06-15 12:06:30.138 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2021-06-15 12:06:30.138 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2021-06-15 12:06:30.138 SFTP Bugs: Auto,Auto
+. 2021-06-15 12:06:30.138 SFTP Server: default
+. 2021-06-15 12:06:30.138 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2021-06-15 12:06:30.138 Cache directory changes: Yes, Permanent: Yes
+. 2021-06-15 12:06:30.138 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2021-06-15 12:06:30.138 DST mode: Unix
+. 2021-06-15 12:06:30.138 --------------------------------------------------------------------------
+. 2021-06-15 12:06:30.138 Looking up host "18.195.101.4" for SSH connection
+. 2021-06-15 12:06:30.138 Connecting to 18.195.101.4 port 22
+. 2021-06-15 12:06:30.169 We claim version: SSH-2.0-WinSCP_release_5.17.7
+. 2021-06-15 12:06:30.216 Remote version: SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2
+. 2021-06-15 12:06:30.216 Using SSH protocol version 2
+. 2021-06-15 12:06:30.216 Have a known host key of type ssh-ed25519
+. 2021-06-15 12:06:30.247 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2021-06-15 12:06:30.341 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2021-06-15 12:06:30.341 Host key fingerprint is:
+. 2021-06-15 12:06:30.341 ssh-ed25519 255 5b:7b:7e:10:b6:77:83:ba:4f:eb:fb:9c:34:b9:2d:08 5/y0NY9tYRIIQFfyQufy/5o1R5evMtuyO/OhA/1MPL4=
+. 2021-06-15 12:06:30.341 Host key matches configured key fingerprint
+. 2021-06-15 12:06:30.341 Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+. 2021-06-15 12:06:30.341 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2021-06-15 12:06:30.341 Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+. 2021-06-15 12:06:30.341 Initialised HMAC-SHA-256 inbound MAC algorithm
+! 2021-06-15 12:06:30.372 Using username "ced@felsineo.com".
+. 2021-06-15 12:06:30.404 Server offered these authentication methods: publickey,password
+. 2021-06-15 12:06:30.404 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2021-06-15 12:06:30.404 Using stored password.
+. 2021-06-15 12:06:30.404 Sent password
+. 2021-06-15 12:06:30.450 Access granted
+. 2021-06-15 12:06:30.450 Opening main session channel
+. 2021-06-15 12:06:30.529 Opened main channel
+. 2021-06-15 12:06:30.560 Started a shell/command
+. 2021-06-15 12:06:30.560 --------------------------------------------------------------------------
+. 2021-06-15 12:06:30.560 Using SFTP protocol.
+. 2021-06-15 12:06:30.560 Doing startup conversation with host.
+> 2021-06-15 12:06:30.560 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2021-06-15 12:06:30.591 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2021-06-15 12:06:30.591 SFTP version 3 negotiated.
+. 2021-06-15 12:06:30.591 Unknown server extension posix-rename@openssh.com="1"
+. 2021-06-15 12:06:30.591 Supports statvfs@openssh.com extension version "2"
+. 2021-06-15 12:06:30.591 Unknown server extension fstatvfs@openssh.com="2"
+. 2021-06-15 12:06:30.591 Supports hardlink@openssh.com extension version "1"
+. 2021-06-15 12:06:30.591 Unknown server extension fsync@openssh.com="1"
+. 2021-06-15 12:06:30.591 We believe the server has signed timestamps bug
+. 2021-06-15 12:06:30.591 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2021-06-15 12:06:30.591 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2021-06-15 12:06:30.591 Getting current directory name.
+. 2021-06-15 12:06:30.591 Getting real path for '.'
+> 2021-06-15 12:06:30.591 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2021-06-15 12:06:30.622 Type: SSH_FXP_NAME, Size: 65, Number: 16
+. 2021-06-15 12:06:30.622 Real path is '/home/ced@felsineo.com'
+. 2021-06-15 12:06:30.622 Startup conversation with host finished.
+< 2021-06-15 12:06:30.622 Script: Sessione attiva: [1] ced@felsineo.com@18.195.101.4
+> 2021-06-15 12:06:30.622 Script: lcd C:\batch\Blockchain
+< 2021-06-15 12:06:30.622 Script: C:\batch\Blockchain
+> 2021-06-15 12:06:30.622 Script: put blockchain_fmv.xls
+. 2021-06-15 12:06:30.622 Copying 1 files/directories to remote directory "/home/ced@felsineo.com" - total size: 29.124
+. 2021-06-15 12:06:30.622   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2021-06-15 12:06:30.622   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2021-06-15 12:06:30.622   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2021-06-15 12:06:30.622 Getting real path for '/home/ced@felsineo.com'
+> 2021-06-15 12:06:30.622 Type: SSH_FXP_REALPATH, Size: 31, Number: 272
+< 2021-06-15 12:06:30.654 Type: SSH_FXP_NAME, Size: 65, Number: 272
+. 2021-06-15 12:06:30.654 Real path is '/home/ced@felsineo.com'
+. 2021-06-15 12:06:30.654 File: 'Blockchain_FMV.xls' [2021-06-15T10:05:53.943Z] [29124]
+. 2021-06-15 12:06:30.654 Copying "Blockchain_FMV.xls" to remote directory started.
+. 2021-06-15 12:06:30.654 Binary transfer mode selected.
+. 2021-06-15 12:06:30.654 Opening remote file.
+> 2021-06-15 12:06:30.654 Type: SSH_FXP_OPEN, Size: 66, Number: 515
+< 2021-06-15 12:06:30.685 Type: SSH_FXP_HANDLE, Size: 13, Number: 515
+> 2021-06-15 12:06:30.685 Type: SSH_FXP_WRITE, Size: 29149, Number: 1030
+> 2021-06-15 12:06:30.685 Type: SSH_FXP_CLOSE, Size: 13, Number: 1284
+> 2021-06-15 12:06:30.685 Type: SSH_FXP_SETSTAT, Size: 62, Number: 777
+< 2021-06-15 12:06:30.747 Type: SSH_FXP_STATUS, Size: 24, Number: 1030
+< 2021-06-15 12:06:30.747 Status code: 0
+< 2021-06-15 12:06:30.747 Type: SSH_FXP_STATUS, Size: 24, Number: 1284
+< 2021-06-15 12:06:30.747 Status code: 0
+. 2021-06-15 12:06:30.747 Preserving timestamp [2021-06-15T10:05:53.000Z]
+< 2021-06-15 12:06:30.747 Type: SSH_FXP_STATUS, Size: 24, Number: 777
+< 2021-06-15 12:06:30.747 Status code: 0
+. 2021-06-15 12:06:30.747 Transfer done: 'Blockchain_FMV.xls' => '/home/ced@felsineo.com/Blockchain_FMV.xls' [29124]
+. 2021-06-15 12:06:30.747 Copying finished: Transferred: 29.124, Elapsed: 0:00:00, CPS: 0/s
+> 2021-06-15 12:06:30.747 Script: put blockchain_fels.xls
+. 2021-06-15 12:06:30.747 Copying 1 files/directories to remote directory "/home/ced@felsineo.com" - total size: 0
+. 2021-06-15 12:06:30.747   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2021-06-15 12:06:30.747   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2021-06-15 12:06:30.747   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2021-06-15 12:06:30.747 Getting real path for '/home/ced@felsineo.com'
+> 2021-06-15 12:06:30.747 Type: SSH_FXP_REALPATH, Size: 31, Number: 1552
+< 2021-06-15 12:06:30.779 Type: SSH_FXP_NAME, Size: 65, Number: 1552
+. 2021-06-15 12:06:30.779 Real path is '/home/ced@felsineo.com'
+* 2021-06-15 12:06:30.779 (EOSError) Errore di sistema.  Codice: 2.
+* 2021-06-15 12:06:30.779 Impossibile trovare il file specificato
+. 2021-06-15 12:06:30.779 Asking user:
+. 2021-06-15 12:06:30.779 Il file o cartella 'blockchain_fels.xls' non esiste. ("Errore di sistema.  Codice: 2.
+. 2021-06-15 12:06:30.779 Impossibile trovare il file specificato")
+< 2021-06-15 12:06:30.779 Script: Il file o cartella 'blockchain_fels.xls' non esiste.
+< 2021-06-15 12:06:30.779 Script: Errore di sistema.  Codice: 2.
+< 2021-06-15 12:06:30.779 Impossibile trovare il file specificato
+* 2021-06-15 12:06:30.779 (ESkipFile) Il file o cartella 'blockchain_fels.xls' non esiste.
+* 2021-06-15 12:06:30.779 Errore di sistema.  Codice: 2.
+* 2021-06-15 12:06:30.779 Impossibile trovare il file specificato
+. 2021-06-15 12:06:30.779 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+. 2021-06-15 12:06:30.779 Script: Failed
+. 2021-06-15 12:06:30.779 Script: Exit code: 1
+. 2021-06-15 12:06:30.779 Closing connection.
+. 2021-06-15 12:06:30.779 Sending special code: 1
+. 2021-06-15 12:06:30.810 Session sent command exit status 0
+. 2021-06-15 12:06:30.810 Main session channel closed
+. 2021-06-15 12:06:30.810 All channels closed
+. 2021-06-15 12:09:45.677 --------------------------------------------------------------------------
+. 2021-06-15 12:09:45.677 WinSCP Versione 5.17.7 (Build 10640) (OS 10.0.14393 - Windows Server 2016 Standard)
+. 2021-06-15 12:09:45.677 Configuration: nul
+. 2021-06-15 12:09:45.677 Log level: Normal
+. 2021-06-15 12:09:45.677 Local account: FELSINEO\administrator
+. 2021-06-15 12:09:45.677 Working directory: C:\
+. 2021-06-15 12:09:45.677 Process ID: 4128
+. 2021-06-15 12:09:45.677 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.17.7 /consoleinstance=_7184_143 "/log=C:\Batch\Blockchain\WinSCPBlockchain.log" "/ini=nul" "/script=C:\Batch\Blockchain\scriptblockchain.txt" 
+. 2021-06-15 12:09:45.677 Time zone: Current: GMT+2, Standard: GMT+1 (ora solare Europa occidentale), DST: GMT+2 (ora legale Europa occidentale), DST Start: 28/03/2021, DST End: 31/10/2021
+. 2021-06-15 12:09:45.677 Login time: martedì 15 giugno 2021 12:09:45
+. 2021-06-15 12:09:45.677 --------------------------------------------------------------------------
+. 2021-06-15 12:09:45.677 Script: Retrospectively logging previous script records:
+> 2021-06-15 12:09:45.677 Script: open sftp://ced%40felsineo.com:***@18.195.101.4/data -hostkey="ssh-ed25519 255 5/y0NY9tYRIIQFfyQufy/5o1R5evMtuyO/OhA/1MPL4="
+. 2021-06-15 12:09:45.677 --------------------------------------------------------------------------
+. 2021-06-15 12:09:45.677 Session name: ced@felsineo.com@18.195.101.4 (Ad-Hoc site)
+. 2021-06-15 12:09:45.677 Host name: 18.195.101.4 (Port: 22)
+. 2021-06-15 12:09:45.677 User name: ced@felsineo.com (Password: Yes, Key file: No, Passphrase: No)
+. 2021-06-15 12:09:45.677 Tunnel: No
+. 2021-06-15 12:09:45.677 Transfer Protocol: SFTP
+. 2021-06-15 12:09:45.677 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2021-06-15 12:09:45.677 Disable Nagle: No
+. 2021-06-15 12:09:45.677 Proxy: None
+. 2021-06-15 12:09:45.677 Send buffer: 262144
+. 2021-06-15 12:09:45.677 SSH protocol version: 2; Compression: No
+. 2021-06-15 12:09:45.677 Bypass authentication: No
+. 2021-06-15 12:09:45.677 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2021-06-15 12:09:45.677 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2021-06-15 12:09:45.677 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2021-06-15 12:09:45.677 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2021-06-15 12:09:45.677 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2021-06-15 12:09:45.677 Simple channel: Yes
+. 2021-06-15 12:09:45.677 Return code variable: Autodetect; Lookup user groups: Auto
+. 2021-06-15 12:09:45.677 Shell: default
+. 2021-06-15 12:09:45.677 EOL: LF, UTF: Auto
+. 2021-06-15 12:09:45.677 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2021-06-15 12:09:45.677 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2021-06-15 12:09:45.677 SFTP Bugs: Auto,Auto
+. 2021-06-15 12:09:45.677 SFTP Server: default
+. 2021-06-15 12:09:45.677 Local directory: default, Remote directory: /data, Update: Yes, Cache: Yes
+. 2021-06-15 12:09:45.677 Cache directory changes: Yes, Permanent: Yes
+. 2021-06-15 12:09:45.677 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2021-06-15 12:09:45.677 DST mode: Unix
+. 2021-06-15 12:09:45.677 --------------------------------------------------------------------------
+. 2021-06-15 12:09:45.677 Looking up host "18.195.101.4" for SSH connection
+. 2021-06-15 12:09:45.677 Connecting to 18.195.101.4 port 22
+. 2021-06-15 12:09:45.709 We claim version: SSH-2.0-WinSCP_release_5.17.7
+. 2021-06-15 12:09:45.740 Remote version: SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2
+. 2021-06-15 12:09:45.740 Using SSH protocol version 2
+. 2021-06-15 12:09:45.740 Have a known host key of type ssh-ed25519
+. 2021-06-15 12:09:45.756 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2021-06-15 12:09:45.849 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2021-06-15 12:09:45.849 Host key fingerprint is:
+. 2021-06-15 12:09:45.849 ssh-ed25519 255 5b:7b:7e:10:b6:77:83:ba:4f:eb:fb:9c:34:b9:2d:08 5/y0NY9tYRIIQFfyQufy/5o1R5evMtuyO/OhA/1MPL4=
+. 2021-06-15 12:09:45.849 Host key matches configured key fingerprint
+. 2021-06-15 12:09:45.849 Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+. 2021-06-15 12:09:45.849 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2021-06-15 12:09:45.849 Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+. 2021-06-15 12:09:45.849 Initialised HMAC-SHA-256 inbound MAC algorithm
+! 2021-06-15 12:09:45.865 Using username "ced@felsineo.com".
+. 2021-06-15 12:09:45.896 Server offered these authentication methods: publickey,password
+. 2021-06-15 12:09:45.896 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2021-06-15 12:09:45.896 Using stored password.
+. 2021-06-15 12:09:45.896 Sent password
+. 2021-06-15 12:09:45.927 Access granted
+. 2021-06-15 12:09:45.927 Opening main session channel
+. 2021-06-15 12:09:46.021 Opened main channel
+. 2021-06-15 12:09:46.037 Started a shell/command
+. 2021-06-15 12:09:46.037 --------------------------------------------------------------------------
+. 2021-06-15 12:09:46.037 Using SFTP protocol.
+. 2021-06-15 12:09:46.037 Doing startup conversation with host.
+> 2021-06-15 12:09:46.037 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2021-06-15 12:09:46.052 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2021-06-15 12:09:46.052 SFTP version 3 negotiated.
+. 2021-06-15 12:09:46.052 Unknown server extension posix-rename@openssh.com="1"
+. 2021-06-15 12:09:46.052 Supports statvfs@openssh.com extension version "2"
+. 2021-06-15 12:09:46.052 Unknown server extension fstatvfs@openssh.com="2"
+. 2021-06-15 12:09:46.052 Supports hardlink@openssh.com extension version "1"
+. 2021-06-15 12:09:46.052 Unknown server extension fsync@openssh.com="1"
+. 2021-06-15 12:09:46.052 We believe the server has signed timestamps bug
+. 2021-06-15 12:09:46.052 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2021-06-15 12:09:46.052 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2021-06-15 12:09:46.052 Changing directory to "/data".
+. 2021-06-15 12:09:46.052 Getting real path for '/data'
+> 2021-06-15 12:09:46.052 Type: SSH_FXP_REALPATH, Size: 14, Number: 16
+< 2021-06-15 12:09:46.068 Type: SSH_FXP_NAME, Size: 31, Number: 16
+. 2021-06-15 12:09:46.068 Real path is '/data'
+. 2021-06-15 12:09:46.068 Trying to open directory "/data".
+> 2021-06-15 12:09:46.068 Type: SSH_FXP_LSTAT, Size: 14, Number: 263
+< 2021-06-15 12:09:46.099 Type: SSH_FXP_STATUS, Size: 29, Number: 263
+< 2021-06-15 12:09:46.099 Status code: 2, Message: 263, Server: No such file, Language:  
+. 2021-06-15 12:09:46.099 Getting current directory name.
+. 2021-06-15 12:09:46.099 Getting real path for '.'
+> 2021-06-15 12:09:46.099 Type: SSH_FXP_REALPATH, Size: 10, Number: 528
+< 2021-06-15 12:09:46.115 Type: SSH_FXP_NAME, Size: 65, Number: 528
+. 2021-06-15 12:09:46.115 Real path is '/home/ced@felsineo.com'
+. 2021-06-15 12:09:46.115 Startup conversation with host finished.
+< 2021-06-15 12:09:46.115 Script: Sessione attiva: [1] ced@felsineo.com@18.195.101.4
+> 2021-06-15 12:09:46.115 Script: lcd C:\batch\Blockchain
+< 2021-06-15 12:09:46.115 Script: C:\batch\Blockchain
+> 2021-06-15 12:09:46.115 Script: put blockchain_fmv.xls
+. 2021-06-15 12:09:46.115 Copying 1 files/directories to remote directory "/home/ced@felsineo.com" - total size: 0
+. 2021-06-15 12:09:46.115   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2021-06-15 12:09:46.115   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2021-06-15 12:09:46.115   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2021-06-15 12:09:46.115 Getting real path for '/home/ced@felsineo.com'
+> 2021-06-15 12:09:46.115 Type: SSH_FXP_REALPATH, Size: 31, Number: 784
+< 2021-06-15 12:09:46.130 Type: SSH_FXP_NAME, Size: 65, Number: 784
+. 2021-06-15 12:09:46.130 Real path is '/home/ced@felsineo.com'
+* 2021-06-15 12:09:46.146 (EOSError) Errore di sistema.  Codice: 2.
+* 2021-06-15 12:09:46.146 Impossibile trovare il file specificato
+. 2021-06-15 12:09:46.146 Asking user:
+. 2021-06-15 12:09:46.146 Il file o cartella 'blockchain_fmv.xls' non esiste. ("Errore di sistema.  Codice: 2.
+. 2021-06-15 12:09:46.146 Impossibile trovare il file specificato")
+< 2021-06-15 12:09:46.146 Script: Il file o cartella 'blockchain_fmv.xls' non esiste.
+< 2021-06-15 12:09:46.146 Script: Errore di sistema.  Codice: 2.
+< 2021-06-15 12:09:46.146 Impossibile trovare il file specificato
+* 2021-06-15 12:09:46.146 (ESkipFile) Il file o cartella 'blockchain_fmv.xls' non esiste.
+* 2021-06-15 12:09:46.146 Errore di sistema.  Codice: 2.
+* 2021-06-15 12:09:46.146 Impossibile trovare il file specificato
+. 2021-06-15 12:09:46.146 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+. 2021-06-15 12:09:46.146 Script: Failed
+. 2021-06-15 12:09:46.146 Script: Exit code: 1
+. 2021-06-15 12:09:46.146 Closing connection.
+. 2021-06-15 12:09:46.146 Sending special code: 1
+. 2021-06-15 12:09:46.162 Session sent command exit status 0
+. 2021-06-15 12:09:46.162 Main session channel closed
+. 2021-06-15 12:09:46.162 All channels closed
+. 2021-06-15 12:24:18.883 --------------------------------------------------------------------------
+. 2021-06-15 12:24:18.883 WinSCP Versione 5.17.7 (Build 10640) (OS 10.0.14393 - Windows Server 2016 Standard)
+. 2021-06-15 12:24:18.883 Configuration: nul
+. 2021-06-15 12:24:18.883 Log level: Normal
+. 2021-06-15 12:24:18.883 Local account: FELSINEO\administrator
+. 2021-06-15 12:24:18.883 Working directory: C:\
+. 2021-06-15 12:24:18.883 Process ID: 8392
+. 2021-06-15 12:24:18.883 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.17.7 /consoleinstance=_8128_939 "/log=C:\Batch\Blockchain\WinSCPBlockchain.log" "/ini=nul" "/script=C:\Batch\Blockchain\scriptblockchain.txt" 
+. 2021-06-15 12:24:18.883 Time zone: Current: GMT+2, Standard: GMT+1 (ora solare Europa occidentale), DST: GMT+2 (ora legale Europa occidentale), DST Start: 28/03/2021, DST End: 31/10/2021
+. 2021-06-15 12:24:18.883 Login time: martedì 15 giugno 2021 12:24:18
+. 2021-06-15 12:24:18.883 --------------------------------------------------------------------------
+. 2021-06-15 12:24:18.883 Script: Retrospectively logging previous script records:
+> 2021-06-15 12:24:18.883 Script: open sftp://ced%40felsineo.com:***@18.195.101.4/data -hostkey="ssh-ed25519 255 5/y0NY9tYRIIQFfyQufy/5o1R5evMtuyO/OhA/1MPL4="
+. 2021-06-15 12:24:18.883 --------------------------------------------------------------------------
+. 2021-06-15 12:24:18.883 Session name: ced@felsineo.com@18.195.101.4 (Ad-Hoc site)
+. 2021-06-15 12:24:18.883 Host name: 18.195.101.4 (Port: 22)
+. 2021-06-15 12:24:18.883 User name: ced@felsineo.com (Password: Yes, Key file: No, Passphrase: No)
+. 2021-06-15 12:24:18.883 Tunnel: No
+. 2021-06-15 12:24:18.883 Transfer Protocol: SFTP
+. 2021-06-15 12:24:18.883 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2021-06-15 12:24:18.883 Disable Nagle: No
+. 2021-06-15 12:24:18.883 Proxy: None
+. 2021-06-15 12:24:18.883 Send buffer: 262144
+. 2021-06-15 12:24:18.883 SSH protocol version: 2; Compression: No
+. 2021-06-15 12:24:18.883 Bypass authentication: No
+. 2021-06-15 12:24:18.883 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2021-06-15 12:24:18.883 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2021-06-15 12:24:18.883 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2021-06-15 12:24:18.883 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2021-06-15 12:24:18.883 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2021-06-15 12:24:18.883 Simple channel: Yes
+. 2021-06-15 12:24:18.883 Return code variable: Autodetect; Lookup user groups: Auto
+. 2021-06-15 12:24:18.883 Shell: default
+. 2021-06-15 12:24:18.883 EOL: LF, UTF: Auto
+. 2021-06-15 12:24:18.883 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2021-06-15 12:24:18.883 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2021-06-15 12:24:18.883 SFTP Bugs: Auto,Auto
+. 2021-06-15 12:24:18.883 SFTP Server: default
+. 2021-06-15 12:24:18.883 Local directory: default, Remote directory: /data, Update: Yes, Cache: Yes
+. 2021-06-15 12:24:18.883 Cache directory changes: Yes, Permanent: Yes
+. 2021-06-15 12:24:18.883 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2021-06-15 12:24:18.883 DST mode: Unix
+. 2021-06-15 12:24:18.883 --------------------------------------------------------------------------
+. 2021-06-15 12:24:18.883 Looking up host "18.195.101.4" for SSH connection
+. 2021-06-15 12:24:18.883 Connecting to 18.195.101.4 port 22
+. 2021-06-15 12:24:18.914 We claim version: SSH-2.0-WinSCP_release_5.17.7
+. 2021-06-15 12:24:18.946 Remote version: SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2
+. 2021-06-15 12:24:18.946 Using SSH protocol version 2
+. 2021-06-15 12:24:18.946 Have a known host key of type ssh-ed25519
+. 2021-06-15 12:24:18.961 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2021-06-15 12:24:19.039 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2021-06-15 12:24:19.055 Host key fingerprint is:
+. 2021-06-15 12:24:19.055 ssh-ed25519 255 5b:7b:7e:10:b6:77:83:ba:4f:eb:fb:9c:34:b9:2d:08 5/y0NY9tYRIIQFfyQufy/5o1R5evMtuyO/OhA/1MPL4=
+. 2021-06-15 12:24:19.055 Host key matches configured key fingerprint
+. 2021-06-15 12:24:19.055 Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+. 2021-06-15 12:24:19.055 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2021-06-15 12:24:19.055 Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+. 2021-06-15 12:24:19.055 Initialised HMAC-SHA-256 inbound MAC algorithm
+! 2021-06-15 12:24:19.071 Using username "ced@felsineo.com".
+. 2021-06-15 12:24:19.086 Server offered these authentication methods: publickey,password
+. 2021-06-15 12:24:19.086 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2021-06-15 12:24:19.086 Using stored password.
+. 2021-06-15 12:24:19.102 Sent password
+. 2021-06-15 12:24:19.133 Access granted
+. 2021-06-15 12:24:19.133 Opening main session channel
+. 2021-06-15 12:24:19.227 Opened main channel
+. 2021-06-15 12:24:19.243 Started a shell/command
+. 2021-06-15 12:24:19.243 --------------------------------------------------------------------------
+. 2021-06-15 12:24:19.243 Using SFTP protocol.
+. 2021-06-15 12:24:19.243 Doing startup conversation with host.
+> 2021-06-15 12:24:19.243 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2021-06-15 12:24:19.258 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2021-06-15 12:24:19.258 SFTP version 3 negotiated.
+. 2021-06-15 12:24:19.258 Unknown server extension posix-rename@openssh.com="1"
+. 2021-06-15 12:24:19.258 Supports statvfs@openssh.com extension version "2"
+. 2021-06-15 12:24:19.258 Unknown server extension fstatvfs@openssh.com="2"
+. 2021-06-15 12:24:19.258 Supports hardlink@openssh.com extension version "1"
+. 2021-06-15 12:24:19.258 Unknown server extension fsync@openssh.com="1"
+. 2021-06-15 12:24:19.258 We believe the server has signed timestamps bug
+. 2021-06-15 12:24:19.258 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2021-06-15 12:24:19.258 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2021-06-15 12:24:19.258 Changing directory to "/data".
+. 2021-06-15 12:24:19.258 Getting real path for '/data'
+> 2021-06-15 12:24:19.258 Type: SSH_FXP_REALPATH, Size: 14, Number: 16
+< 2021-06-15 12:24:19.274 Type: SSH_FXP_NAME, Size: 31, Number: 16
+. 2021-06-15 12:24:19.289 Real path is '/data'
+. 2021-06-15 12:24:19.289 Trying to open directory "/data".
+> 2021-06-15 12:24:19.289 Type: SSH_FXP_LSTAT, Size: 14, Number: 263
+< 2021-06-15 12:24:19.305 Type: SSH_FXP_STATUS, Size: 29, Number: 263
+< 2021-06-15 12:24:19.305 Status code: 2, Message: 263, Server: No such file, Language:  
+. 2021-06-15 12:24:19.305 Getting current directory name.
+. 2021-06-15 12:24:19.305 Getting real path for '.'
+> 2021-06-15 12:24:19.305 Type: SSH_FXP_REALPATH, Size: 10, Number: 528
+< 2021-06-15 12:24:19.321 Type: SSH_FXP_NAME, Size: 65, Number: 528
+. 2021-06-15 12:24:19.321 Real path is '/home/ced@felsineo.com'
+. 2021-06-15 12:24:19.321 Startup conversation with host finished.
+< 2021-06-15 12:24:19.321 Script: Sessione attiva: [1] ced@felsineo.com@18.195.101.4
+> 2021-06-15 12:24:19.321 Script: lcd C:\batch\Blockchain
+< 2021-06-15 12:24:19.321 Script: C:\batch\Blockchain
+> 2021-06-15 12:24:19.321 Script: put blockchain_fmv.xls
+. 2021-06-15 12:24:19.321 Copying 1 files/directories to remote directory "/home/ced@felsineo.com" - total size: 29.124
+. 2021-06-15 12:24:19.321   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2021-06-15 12:24:19.321   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2021-06-15 12:24:19.321   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2021-06-15 12:24:19.321 Getting real path for '/home/ced@felsineo.com'
+> 2021-06-15 12:24:19.321 Type: SSH_FXP_REALPATH, Size: 31, Number: 784
+< 2021-06-15 12:24:19.336 Type: SSH_FXP_NAME, Size: 65, Number: 784
+. 2021-06-15 12:24:19.336 Real path is '/home/ced@felsineo.com'
+. 2021-06-15 12:24:19.336 File: 'Blockchain_FMV.xls' [2021-06-15T10:20:31.516Z] [29124]
+. 2021-06-15 12:24:19.352 Copying "Blockchain_FMV.xls" to remote directory started.
+. 2021-06-15 12:24:19.352 Binary transfer mode selected.
+. 2021-06-15 12:24:19.352 Opening remote file.
+> 2021-06-15 12:24:19.352 Type: SSH_FXP_OPEN, Size: 66, Number: 1027
+< 2021-06-15 12:24:19.368 Type: SSH_FXP_HANDLE, Size: 13, Number: 1027
+> 2021-06-15 12:24:19.368 Type: SSH_FXP_WRITE, Size: 29149, Number: 1542
+> 2021-06-15 12:24:19.368 Type: SSH_FXP_CLOSE, Size: 13, Number: 1796
+> 2021-06-15 12:24:19.368 Type: SSH_FXP_SETSTAT, Size: 62, Number: 1289
+< 2021-06-15 12:24:19.399 Type: SSH_FXP_STATUS, Size: 24, Number: 1542
+< 2021-06-15 12:24:19.399 Status code: 0
+< 2021-06-15 12:24:19.399 Type: SSH_FXP_STATUS, Size: 24, Number: 1796
+< 2021-06-15 12:24:19.399 Status code: 0
+. 2021-06-15 12:24:19.399 Preserving timestamp [2021-06-15T10:20:31.000Z]
+< 2021-06-15 12:24:19.415 Type: SSH_FXP_STATUS, Size: 24, Number: 1289
+< 2021-06-15 12:24:19.415 Status code: 0
+. 2021-06-15 12:24:19.415 Transfer done: 'Blockchain_FMV.xls' => '/home/ced@felsineo.com/Blockchain_FMV.xls' [29124]
+. 2021-06-15 12:24:19.415 Copying finished: Transferred: 29.124, Elapsed: 0:00:00, CPS: 0/s
+> 2021-06-15 12:24:19.415 Script: put blockchain_fels.xls
+. 2021-06-15 12:24:19.415 Copying 1 files/directories to remote directory "/home/ced@felsineo.com" - total size: 0
+. 2021-06-15 12:24:19.415   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2021-06-15 12:24:19.415   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2021-06-15 12:24:19.415   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2021-06-15 12:24:19.415 Getting real path for '/home/ced@felsineo.com'
+> 2021-06-15 12:24:19.415 Type: SSH_FXP_REALPATH, Size: 31, Number: 2064
+< 2021-06-15 12:24:19.430 Type: SSH_FXP_NAME, Size: 65, Number: 2064
+. 2021-06-15 12:24:19.430 Real path is '/home/ced@felsineo.com'
+* 2021-06-15 12:24:19.446 (EOSError) Errore di sistema.  Codice: 2.
+* 2021-06-15 12:24:19.446 Impossibile trovare il file specificato
+. 2021-06-15 12:24:19.446 Asking user:
+. 2021-06-15 12:24:19.446 Il file o cartella 'blockchain_fels.xls' non esiste. ("Errore di sistema.  Codice: 2.
+. 2021-06-15 12:24:19.446 Impossibile trovare il file specificato")
+< 2021-06-15 12:24:19.446 Script: Il file o cartella 'blockchain_fels.xls' non esiste.
+< 2021-06-15 12:24:19.446 Script: Errore di sistema.  Codice: 2.
+< 2021-06-15 12:24:19.446 Impossibile trovare il file specificato
+* 2021-06-15 12:24:19.446 (ESkipFile) Il file o cartella 'blockchain_fels.xls' non esiste.
+* 2021-06-15 12:24:19.446 Errore di sistema.  Codice: 2.
+* 2021-06-15 12:24:19.446 Impossibile trovare il file specificato
+. 2021-06-15 12:24:19.446 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+. 2021-06-15 12:24:19.446 Script: Failed
+. 2021-06-15 12:24:19.446 Script: Exit code: 1
+. 2021-06-15 12:24:19.446 Closing connection.
+. 2021-06-15 12:24:19.446 Sending special code: 1
+. 2021-06-15 12:24:19.461 Session sent command exit status 0
+. 2021-06-15 12:24:19.461 Main session channel closed
+. 2021-06-15 12:24:19.461 All channels closed
+. 2021-06-15 12:26:39.243 --------------------------------------------------------------------------
+. 2021-06-15 12:26:39.243 WinSCP Versione 5.17.7 (Build 10640) (OS 10.0.14393 - Windows Server 2016 Standard)
+. 2021-06-15 12:26:39.243 Configuration: nul
+. 2021-06-15 12:26:39.243 Log level: Normal
+. 2021-06-15 12:26:39.243 Local account: FELSINEO\administrator
+. 2021-06-15 12:26:39.243 Working directory: C:\
+. 2021-06-15 12:26:39.243 Process ID: 4112
+. 2021-06-15 12:26:39.243 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.17.7 /consoleinstance=_7560_239 "/log=C:\Batch\Blockchain\WinSCPBlockchain.log" "/ini=nul" "/script=C:\Batch\Blockchain\scriptblockchain.txt" 
+. 2021-06-15 12:26:39.243 Time zone: Current: GMT+2, Standard: GMT+1 (ora solare Europa occidentale), DST: GMT+2 (ora legale Europa occidentale), DST Start: 28/03/2021, DST End: 31/10/2021
+. 2021-06-15 12:26:39.243 Login time: martedì 15 giugno 2021 12:26:39
+. 2021-06-15 12:26:39.243 --------------------------------------------------------------------------
+. 2021-06-15 12:26:39.243 Script: Retrospectively logging previous script records:
+> 2021-06-15 12:26:39.243 Script: open sftp://ced%40felsineo.com:***@18.195.101.4/ -hostkey="ssh-ed25519 255 5/y0NY9tYRIIQFfyQufy/5o1R5evMtuyO/OhA/1MPL4="
+. 2021-06-15 12:26:39.243 --------------------------------------------------------------------------
+. 2021-06-15 12:26:39.243 Session name: ced@felsineo.com@18.195.101.4 (Ad-Hoc site)
+. 2021-06-15 12:26:39.243 Host name: 18.195.101.4 (Port: 22)
+. 2021-06-15 12:26:39.243 User name: ced@felsineo.com (Password: Yes, Key file: No, Passphrase: No)
+. 2021-06-15 12:26:39.243 Tunnel: No
+. 2021-06-15 12:26:39.243 Transfer Protocol: SFTP
+. 2021-06-15 12:26:39.243 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2021-06-15 12:26:39.243 Disable Nagle: No
+. 2021-06-15 12:26:39.243 Proxy: None
+. 2021-06-15 12:26:39.243 Send buffer: 262144
+. 2021-06-15 12:26:39.243 SSH protocol version: 2; Compression: No
+. 2021-06-15 12:26:39.243 Bypass authentication: No
+. 2021-06-15 12:26:39.243 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2021-06-15 12:26:39.243 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2021-06-15 12:26:39.243 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2021-06-15 12:26:39.243 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2021-06-15 12:26:39.243 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2021-06-15 12:26:39.243 Simple channel: Yes
+. 2021-06-15 12:26:39.243 Return code variable: Autodetect; Lookup user groups: Auto
+. 2021-06-15 12:26:39.243 Shell: default
+. 2021-06-15 12:26:39.243 EOL: LF, UTF: Auto
+. 2021-06-15 12:26:39.243 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2021-06-15 12:26:39.243 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2021-06-15 12:26:39.243 SFTP Bugs: Auto,Auto
+. 2021-06-15 12:26:39.243 SFTP Server: default
+. 2021-06-15 12:26:39.243 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2021-06-15 12:26:39.243 Cache directory changes: Yes, Permanent: Yes
+. 2021-06-15 12:26:39.243 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2021-06-15 12:26:39.243 DST mode: Unix
+. 2021-06-15 12:26:39.243 --------------------------------------------------------------------------
+. 2021-06-15 12:26:39.243 Looking up host "18.195.101.4" for SSH connection
+. 2021-06-15 12:26:39.243 Connecting to 18.195.101.4 port 22
+. 2021-06-15 12:26:39.274 We claim version: SSH-2.0-WinSCP_release_5.17.7
+. 2021-06-15 12:26:39.305 Remote version: SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2
+. 2021-06-15 12:26:39.305 Using SSH protocol version 2
+. 2021-06-15 12:26:39.305 Have a known host key of type ssh-ed25519
+. 2021-06-15 12:26:39.337 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2021-06-15 12:26:39.430 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2021-06-15 12:26:39.430 Host key fingerprint is:
+. 2021-06-15 12:26:39.430 ssh-ed25519 255 5b:7b:7e:10:b6:77:83:ba:4f:eb:fb:9c:34:b9:2d:08 5/y0NY9tYRIIQFfyQufy/5o1R5evMtuyO/OhA/1MPL4=
+. 2021-06-15 12:26:39.430 Host key matches configured key fingerprint
+. 2021-06-15 12:26:39.430 Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+. 2021-06-15 12:26:39.430 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2021-06-15 12:26:39.430 Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+. 2021-06-15 12:26:39.430 Initialised HMAC-SHA-256 inbound MAC algorithm
+! 2021-06-15 12:26:39.462 Using username "ced@felsineo.com".
+. 2021-06-15 12:26:39.493 Server offered these authentication methods: publickey,password
+. 2021-06-15 12:26:39.493 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2021-06-15 12:26:39.493 Using stored password.
+. 2021-06-15 12:26:39.493 Sent password
+. 2021-06-15 12:26:39.540 Access granted
+. 2021-06-15 12:26:39.540 Opening main session channel
+. 2021-06-15 12:26:39.649 Opened main channel
+. 2021-06-15 12:26:39.680 Started a shell/command
+. 2021-06-15 12:26:39.680 --------------------------------------------------------------------------
+. 2021-06-15 12:26:39.680 Using SFTP protocol.
+. 2021-06-15 12:26:39.680 Doing startup conversation with host.
+> 2021-06-15 12:26:39.680 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2021-06-15 12:26:39.712 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2021-06-15 12:26:39.712 SFTP version 3 negotiated.
+. 2021-06-15 12:26:39.712 Unknown server extension posix-rename@openssh.com="1"
+. 2021-06-15 12:26:39.712 Supports statvfs@openssh.com extension version "2"
+. 2021-06-15 12:26:39.712 Unknown server extension fstatvfs@openssh.com="2"
+. 2021-06-15 12:26:39.712 Supports hardlink@openssh.com extension version "1"
+. 2021-06-15 12:26:39.712 Unknown server extension fsync@openssh.com="1"
+. 2021-06-15 12:26:39.712 We believe the server has signed timestamps bug
+. 2021-06-15 12:26:39.712 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2021-06-15 12:26:39.712 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2021-06-15 12:26:39.712 Getting current directory name.
+. 2021-06-15 12:26:39.712 Getting real path for '.'
+> 2021-06-15 12:26:39.712 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2021-06-15 12:26:39.743 Type: SSH_FXP_NAME, Size: 65, Number: 16
+. 2021-06-15 12:26:39.743 Real path is '/home/ced@felsineo.com'
+. 2021-06-15 12:26:39.743 Startup conversation with host finished.
+< 2021-06-15 12:26:39.743 Script: Sessione attiva: [1] ced@felsineo.com@18.195.101.4
+> 2021-06-15 12:26:39.743 Script: lcd C:\batch\Blockchain
+< 2021-06-15 12:26:39.743 Script: C:\batch\Blockchain
+> 2021-06-15 12:26:39.743 Script: cd /data
+. 2021-06-15 12:26:39.743 Changing directory to "/data".
+. 2021-06-15 12:26:39.743 Getting real path for '/data'
+> 2021-06-15 12:26:39.743 Type: SSH_FXP_REALPATH, Size: 14, Number: 272
+< 2021-06-15 12:26:39.774 Type: SSH_FXP_NAME, Size: 31, Number: 272
+. 2021-06-15 12:26:39.774 Real path is '/data'
+. 2021-06-15 12:26:39.774 Trying to open directory "/data".
+> 2021-06-15 12:26:39.774 Type: SSH_FXP_LSTAT, Size: 14, Number: 519
+< 2021-06-15 12:26:39.805 Type: SSH_FXP_STATUS, Size: 29, Number: 519
+< 2021-06-15 12:26:39.805 Status code: 2, Message: 519, Server: No such file, Language:  
+* 2021-06-15 12:26:39.805 (ECommand) Errore cambiamento cartella su '/data'.
+* 2021-06-15 12:26:39.805 File o cartella non trovata.
+* 2021-06-15 12:26:39.805 Codice errore: 2
+* 2021-06-15 12:26:39.805 Messaggio errore dal server: No such file
+< 2021-06-15 12:26:39.805 Script: Errore cambiamento cartella su '/data'.
+< 2021-06-15 12:26:39.805 File o cartella non trovata.
+< 2021-06-15 12:26:39.805 Codice errore: 2
+< 2021-06-15 12:26:39.805 Messaggio errore dal server: No such file
+< 2021-06-15 12:26:39.805 Script: /home/ced@felsineo.com
+. 2021-06-15 12:26:39.805 Script: Failed
+. 2021-06-15 12:26:39.805 Script: Exit code: 1
+. 2021-06-15 12:26:39.805 Closing connection.
+. 2021-06-15 12:26:39.805 Sending special code: 1
+. 2021-06-15 12:26:39.837 Session sent command exit status 0
+. 2021-06-15 12:26:39.837 Main session channel closed
+. 2021-06-15 12:26:39.837 All channels closed
+. 2021-06-15 12:37:36.837 --------------------------------------------------------------------------
+. 2021-06-15 12:37:36.837 WinSCP Versione 5.17.7 (Build 10640) (OS 10.0.14393 - Windows Server 2016 Standard)
+. 2021-06-15 12:37:36.837 Configuration: nul
+. 2021-06-15 12:37:36.837 Log level: Normal
+. 2021-06-15 12:37:36.837 Local account: FELSINEO\administrator
+. 2021-06-15 12:37:36.837 Working directory: C:\
+. 2021-06-15 12:37:36.837 Process ID: 9636
+. 2021-06-15 12:37:36.837 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=5.17.7 /consoleinstance=_3752_697 "/log=C:\Batch\Blockchain\WinSCPBlockchain.log" "/ini=nul" "/script=C:\Batch\Blockchain\scriptblockchain.txt" 
+. 2021-06-15 12:37:36.837 Time zone: Current: GMT+2, Standard: GMT+1 (ora solare Europa occidentale), DST: GMT+2 (ora legale Europa occidentale), DST Start: 28/03/2021, DST End: 31/10/2021
+. 2021-06-15 12:37:36.837 Login time: martedì 15 giugno 2021 12:37:36
+. 2021-06-15 12:37:36.837 --------------------------------------------------------------------------
+. 2021-06-15 12:37:36.837 Script: Retrospectively logging previous script records:
+> 2021-06-15 12:37:36.837 Script: open sftp://ced%40felsineo.com:***@18.195.101.4/ -hostkey="ssh-ed25519 255 5/y0NY9tYRIIQFfyQufy/5o1R5evMtuyO/OhA/1MPL4="
+. 2021-06-15 12:37:36.837 --------------------------------------------------------------------------
+. 2021-06-15 12:37:36.837 Session name: ced@felsineo.com@18.195.101.4 (Ad-Hoc site)
+. 2021-06-15 12:37:36.837 Host name: 18.195.101.4 (Port: 22)
+. 2021-06-15 12:37:36.837 User name: ced@felsineo.com (Password: Yes, Key file: No, Passphrase: No)
+. 2021-06-15 12:37:36.837 Tunnel: No
+. 2021-06-15 12:37:36.837 Transfer Protocol: SFTP
+. 2021-06-15 12:37:36.837 Ping type: Off, Ping interval: 30 sec; Timeout: 15 sec
+. 2021-06-15 12:37:36.837 Disable Nagle: No
+. 2021-06-15 12:37:36.837 Proxy: None
+. 2021-06-15 12:37:36.837 Send buffer: 262144
+. 2021-06-15 12:37:36.837 SSH protocol version: 2; Compression: No
+. 2021-06-15 12:37:36.837 Bypass authentication: No
+. 2021-06-15 12:37:36.837 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: Yes
+. 2021-06-15 12:37:36.837 GSSAPI: Forwarding: No; Libs: gssapi32,sspi,custom; Custom: 
+. 2021-06-15 12:37:36.837 Ciphers: aes,chacha20,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2021-06-15 12:37:36.837 KEX: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1
+. 2021-06-15 12:37:36.837 SSH Bugs: Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto
+. 2021-06-15 12:37:36.837 Simple channel: Yes
+. 2021-06-15 12:37:36.837 Return code variable: Autodetect; Lookup user groups: Auto
+. 2021-06-15 12:37:36.837 Shell: default
+. 2021-06-15 12:37:36.837 EOL: LF, UTF: Auto
+. 2021-06-15 12:37:36.837 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes; Follow directory symlinks: No
+. 2021-06-15 12:37:36.837 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No; Exit code 1 is error: No
+. 2021-06-15 12:37:36.837 SFTP Bugs: Auto,Auto
+. 2021-06-15 12:37:36.837 SFTP Server: default
+. 2021-06-15 12:37:36.837 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2021-06-15 12:37:36.837 Cache directory changes: Yes, Permanent: Yes
+. 2021-06-15 12:37:36.837 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2021-06-15 12:37:36.837 DST mode: Unix
+. 2021-06-15 12:37:36.837 --------------------------------------------------------------------------
+. 2021-06-15 12:37:36.837 Looking up host "18.195.101.4" for SSH connection
+. 2021-06-15 12:37:36.837 Connecting to 18.195.101.4 port 22
+. 2021-06-15 12:37:36.869 We claim version: SSH-2.0-WinSCP_release_5.17.7
+. 2021-06-15 12:37:36.900 Remote version: SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2
+. 2021-06-15 12:37:36.900 Using SSH protocol version 2
+. 2021-06-15 12:37:36.900 Have a known host key of type ssh-ed25519
+. 2021-06-15 12:37:36.931 Doing ECDH key exchange with curve Curve25519 and hash SHA-256
+. 2021-06-15 12:37:37.025 Server also has ecdsa-sha2-nistp256/ssh-rsa host keys, but we don't know any of them
+. 2021-06-15 12:37:37.025 Host key fingerprint is:
+. 2021-06-15 12:37:37.025 ssh-ed25519 255 5b:7b:7e:10:b6:77:83:ba:4f:eb:fb:9c:34:b9:2d:08 5/y0NY9tYRIIQFfyQufy/5o1R5evMtuyO/OhA/1MPL4=
+. 2021-06-15 12:37:37.025 Host key matches configured key fingerprint
+. 2021-06-15 12:37:37.025 Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+. 2021-06-15 12:37:37.025 Initialised HMAC-SHA-256 outbound MAC algorithm
+. 2021-06-15 12:37:37.025 Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+. 2021-06-15 12:37:37.025 Initialised HMAC-SHA-256 inbound MAC algorithm
+! 2021-06-15 12:37:37.056 Using username "ced@felsineo.com".
+. 2021-06-15 12:37:37.103 Server offered these authentication methods: publickey,password
+. 2021-06-15 12:37:37.103 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2021-06-15 12:37:37.103 Using stored password.
+. 2021-06-15 12:37:37.103 Sent password
+. 2021-06-15 12:37:37.134 Access granted
+. 2021-06-15 12:37:37.134 Opening main session channel
+. 2021-06-15 12:37:37.259 Opened main channel
+. 2021-06-15 12:37:37.291 Started a shell/command
+. 2021-06-15 12:37:37.291 --------------------------------------------------------------------------
+. 2021-06-15 12:37:37.291 Using SFTP protocol.
+. 2021-06-15 12:37:37.291 Doing startup conversation with host.
+> 2021-06-15 12:37:37.291 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2021-06-15 12:37:37.322 Type: SSH_FXP_VERSION, Size: 150, Number: -1
+. 2021-06-15 12:37:37.322 SFTP version 3 negotiated.
+. 2021-06-15 12:37:37.322 Unknown server extension posix-rename@openssh.com="1"
+. 2021-06-15 12:37:37.322 Supports statvfs@openssh.com extension version "2"
+. 2021-06-15 12:37:37.322 Unknown server extension fstatvfs@openssh.com="2"
+. 2021-06-15 12:37:37.322 Supports hardlink@openssh.com extension version "1"
+. 2021-06-15 12:37:37.322 Unknown server extension fsync@openssh.com="1"
+. 2021-06-15 12:37:37.322 We believe the server has signed timestamps bug
+. 2021-06-15 12:37:37.322 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 strings are not mandatory
+. 2021-06-15 12:37:37.322 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2021-06-15 12:37:37.322 Getting current directory name.
+. 2021-06-15 12:37:37.322 Getting real path for '.'
+> 2021-06-15 12:37:37.322 Type: SSH_FXP_REALPATH, Size: 10, Number: 16
+< 2021-06-15 12:37:37.353 Type: SSH_FXP_NAME, Size: 65, Number: 16
+. 2021-06-15 12:37:37.353 Real path is '/home/ced@felsineo.com'
+. 2021-06-15 12:37:37.353 Startup conversation with host finished.
+< 2021-06-15 12:37:37.353 Script: Sessione attiva: [1] ced@felsineo.com@18.195.101.4
+> 2021-06-15 12:37:37.353 Script: lcd C:\batch\Blockchain
+< 2021-06-15 12:37:37.353 Script: C:\batch\Blockchain
+> 2021-06-15 12:37:37.353 Script: cd /home/ced@felsineo.com/data/
+. 2021-06-15 12:37:37.353 Changing directory to "/home/ced@felsineo.com/data/".
+. 2021-06-15 12:37:37.353 Getting real path for '/home/ced@felsineo.com/data/'
+> 2021-06-15 12:37:37.353 Type: SSH_FXP_REALPATH, Size: 37, Number: 272
+< 2021-06-15 12:37:37.384 Type: SSH_FXP_NAME, Size: 75, Number: 272
+. 2021-06-15 12:37:37.384 Real path is '/home/ced@felsineo.com/data'
+. 2021-06-15 12:37:37.384 Trying to open directory "/home/ced@felsineo.com/data".
+> 2021-06-15 12:37:37.384 Type: SSH_FXP_LSTAT, Size: 36, Number: 519
+< 2021-06-15 12:37:37.416 Type: SSH_FXP_ATTRS, Size: 37, Number: 519
+. 2021-06-15 12:37:37.416 Getting current directory name.
+< 2021-06-15 12:37:37.416 Script: /home/ced@felsineo.com/data
+> 2021-06-15 12:37:37.416 Script: put blockchain_fmv.xls
+. 2021-06-15 12:37:37.416 Copying 1 files/directories to remote directory "/home/ced@felsineo.com/data" - total size: 29.124
+. 2021-06-15 12:37:37.416   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2021-06-15 12:37:37.416   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2021-06-15 12:37:37.416   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2021-06-15 12:37:37.416 Getting real path for '/home/ced@felsineo.com/data'
+> 2021-06-15 12:37:37.416 Type: SSH_FXP_REALPATH, Size: 36, Number: 784
+< 2021-06-15 12:37:37.447 Type: SSH_FXP_NAME, Size: 75, Number: 784
+. 2021-06-15 12:37:37.447 Real path is '/home/ced@felsineo.com/data'
+. 2021-06-15 12:37:37.447 File: 'Blockchain_FMV.xls' [2021-06-15T10:37:18.037Z] [29124]
+. 2021-06-15 12:37:37.447 Copying "Blockchain_FMV.xls" to remote directory started.
+. 2021-06-15 12:37:37.447 Binary transfer mode selected.
+. 2021-06-15 12:37:37.447 Opening remote file.
+> 2021-06-15 12:37:37.447 Type: SSH_FXP_OPEN, Size: 71, Number: 1027
+< 2021-06-15 12:37:37.478 Type: SSH_FXP_HANDLE, Size: 13, Number: 1027
+> 2021-06-15 12:37:37.478 Type: SSH_FXP_WRITE, Size: 29149, Number: 1542
+> 2021-06-15 12:37:37.478 Type: SSH_FXP_CLOSE, Size: 13, Number: 1796
+> 2021-06-15 12:37:37.478 Type: SSH_FXP_SETSTAT, Size: 67, Number: 1289
+< 2021-06-15 12:37:37.541 Type: SSH_FXP_STATUS, Size: 24, Number: 1542
+< 2021-06-15 12:37:37.541 Status code: 0
+< 2021-06-15 12:37:37.541 Type: SSH_FXP_STATUS, Size: 24, Number: 1796
+< 2021-06-15 12:37:37.541 Status code: 0
+. 2021-06-15 12:37:37.541 Preserving timestamp [2021-06-15T10:37:18.000Z]
+< 2021-06-15 12:37:37.541 Type: SSH_FXP_STATUS, Size: 24, Number: 1289
+< 2021-06-15 12:37:37.541 Status code: 0
+. 2021-06-15 12:37:37.541 Transfer done: 'Blockchain_FMV.xls' => '/home/ced@felsineo.com/data/Blockchain_FMV.xls' [29124]
+. 2021-06-15 12:37:37.541 Copying finished: Transferred: 29.124, Elapsed: 0:00:00, CPS: 0/s
+> 2021-06-15 12:37:37.541 Script: put blockchain_fels.xls
+. 2021-06-15 12:37:37.541 Copying 1 files/directories to remote directory "/home/ced@felsineo.com/data" - total size: 0
+. 2021-06-15 12:37:37.541   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+. 2021-06-15 12:37:37.541   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2021-06-15 12:37:37.541   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2021-06-15 12:37:37.541 Getting real path for '/home/ced@felsineo.com/data'
+> 2021-06-15 12:37:37.541 Type: SSH_FXP_REALPATH, Size: 36, Number: 2064
+< 2021-06-15 12:37:37.572 Type: SSH_FXP_NAME, Size: 75, Number: 2064
+. 2021-06-15 12:37:37.572 Real path is '/home/ced@felsineo.com/data'
+* 2021-06-15 12:37:37.572 (EOSError) Errore di sistema.  Codice: 2.
+* 2021-06-15 12:37:37.572 Impossibile trovare il file specificato
+. 2021-06-15 12:37:37.572 Asking user:
+. 2021-06-15 12:37:37.572 Il file o cartella 'blockchain_fels.xls' non esiste. ("Errore di sistema.  Codice: 2.
+. 2021-06-15 12:37:37.572 Impossibile trovare il file specificato")
+< 2021-06-15 12:37:37.572 Script: Il file o cartella 'blockchain_fels.xls' non esiste.
+< 2021-06-15 12:37:37.572 Script: Errore di sistema.  Codice: 2.
+< 2021-06-15 12:37:37.572 Impossibile trovare il file specificato
+* 2021-06-15 12:37:37.572 (ESkipFile) Il file o cartella 'blockchain_fels.xls' non esiste.
+* 2021-06-15 12:37:37.572 Errore di sistema.  Codice: 2.
+* 2021-06-15 12:37:37.572 Impossibile trovare il file specificato
+. 2021-06-15 12:37:37.572 Copying finished: Transferred: 0, Elapsed: 0:00:00, CPS: 0/s
+. 2021-06-15 12:37:37.572 Script: Failed
+. 2021-06-15 12:37:37.572 Script: Exit code: 1
+. 2021-06-15 12:37:37.572 Closing connection.
+. 2021-06-15 12:37:37.572 Sending special code: 1
+. 2021-06-15 12:37:37.603 Session sent command exit status 0
+. 2021-06-15 12:37:37.603 Main session channel closed
+. 2021-06-15 12:37:37.603 All channels closed

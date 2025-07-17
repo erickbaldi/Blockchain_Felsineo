@@ -1,0 +1,32 @@
+open sftp://ced%40felsineo.com:felsineo@18.195.101.4/ -hostkey="ssh-ed25519 255 5/y0NY9tYRIIQFfyQufy/5o1R5evMtuyO/OhA/1MPL4="
+
+lcd C:\batch\Blockchain
+
+cd /home/ced@felsineo.com/data/
+put blockchain_fmv.xls
+put blockchain_fels.xls
+close
+exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
